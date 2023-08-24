@@ -11,7 +11,7 @@ const Header = () => {
   const [Mobile, setMobile] = useState(false);
   return (
     <>
-      <div data-aos="zoom-in">
+      <div data-aos="flip-right">
         <header className="header">
           <div className="container d_flex">
             <div className="logo">

@@ -1,0 +1,75 @@
+.hero {
+    /* margin-top: 1rem; */
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+
+.hero_content {
+    width: 59%;
+}
+
+.hero_img {
+    width: 40%;
+    margin: auto;
+}
+
+.hero_img img {
+    width: 25rem;
+    height: 30rem;
+    filter: drop-shadow(0 0 5px black);
+
+}
+
+.heading h1 .name {
+    color: #ff014f;
+}
+
+.hero_p {
+    font-size: 2rem;
+}
+
+.hero_contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_social_media p {
+    margin: 20px 10px;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon button {
+    margin-right: 20px;
+}
+
+.fa-brands {
+    font-size: 1.6rem;
+}
+
+/* --------------------------   Responsive  -------------------------------------- */
+@media screen and (max-width: 600px) {
+    .hero_content {
+        width: 100%;
+    }
+
+    .hero_img {
+        width: 100%;
+    }
+
+    .hero_social_media {
+        margin: 10px 0;
+    }
+
+    .hero_contact {
+        flex-direction: column;
+    }
+
+}
