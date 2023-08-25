@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <>
-      <div className="container d_flex hero" data-aos="fade-down">
+      <div className="container d_flex hero" data-aos="fade-down" id="home">
         <div className="hero_content">
           <div className="heading">
             <p className="hero_p">Welcome to my world</p>

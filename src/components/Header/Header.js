@@ -11,8 +11,7 @@ const Header = () => {
   const [Mobile, setMobile] = useState(false);
   return (
     <>
-      <div data-aos="flip-right">
-        <header className="header">
+        <header className="header" data-aos="flip-right">
           <div className="container d_flex">
             <div className="logo">
               <p className="heading_text">Shivam</p>
@@ -61,7 +60,6 @@ const Header = () => {
             </div>
           </div>
         </header>
-      </div>
     </>
   );
 };
