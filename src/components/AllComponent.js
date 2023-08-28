@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import Features from "./Features/Features";
+import Portfolio from "./Portfolio/Portfolio";
 
 const AllComponent = () => {
   return (
@@ -9,6 +10,7 @@ const AllComponent = () => {
       <Header />
       <Hero/>
       <Features/>
+      <Portfolio/>
     </div>
   );
 };

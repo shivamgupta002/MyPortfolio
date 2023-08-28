@@ -13,7 +13,7 @@
     margin-top: 10px;
     color: #ff014f;
     text-align: right;
-    transform: all 9s linear;
+    transition: transform 0.6s ease-in-out;
 }
 
 .features .box:hover p,
