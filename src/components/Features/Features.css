@@ -1,0 +1,26 @@
+.features_card_img {
+    height: 2.5rem;
+}
+
+.features_card_p {
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+.fa-arrow-right {
+    display: block;
+    text-align: start;
+    margin-top: 10px;
+    color: #ff014f;
+    text-align: right;
+    transform: all 9s linear;
+}
+
+.features .box:hover p,
+.box:hover .fa-arrow-right {
+    color: white;
+}
+
+.box:hover .fa-arrow-right {
+    transform: translateX(10px)
+}
