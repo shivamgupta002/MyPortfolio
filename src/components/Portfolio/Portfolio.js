@@ -8,11 +8,11 @@ const Portfolio = () => {
     <>
       <section className="portfolio top" id="portfolio">
         <div className="container">
-          <div className="heading text-center">
+          <div className="heading text-center" data-aos="zoom-in-down">
             <h4>My Portfolio and Keep Your Feedback</h4>
             <h1>Portfolio</h1>
           </div>
-          <div className="content grid">
+          <div className="content grid" data-aos="zoom-out-down">
             {Portfolio_data.map((value, index) => {
               return (
                 <PortFolioCard

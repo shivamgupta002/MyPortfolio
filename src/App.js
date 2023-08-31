@@ -1,10 +1,10 @@
-import './App.css';
-import Controller from './components/Controller';
+import "./App.css";
+import Components from "./components/Components";
 
 function App() {
   return (
     <>
-    <Controller/>
+      <Components />
     </>
   );
 }

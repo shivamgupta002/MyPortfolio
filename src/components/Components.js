@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import Features from "./Features/Features";
 import Portfolio from "./Portfolio/Portfolio";
+// import Resume from "./Resume/Resume";
 
 const AllComponent = () => {
   return (
@@ -11,6 +12,7 @@ const AllComponent = () => {
       <Hero/>
       <Features/>
       <Portfolio/>
+      {/* <Resume/> */}
     </div>
   );
 };

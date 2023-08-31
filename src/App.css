@@ -18,6 +18,7 @@ body {
 .container {
   max-width: 95%;
   margin: auto;
+  overflow-x: hidden;
 }
 
 .d_flex {
