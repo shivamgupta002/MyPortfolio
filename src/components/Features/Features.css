@@ -24,3 +24,13 @@
 .box:hover .fa-arrow-right {
     transform: translateX(10px)
 }
+
+.box {
+    width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 98%;
+    }
+}

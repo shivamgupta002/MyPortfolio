@@ -12,7 +12,7 @@ const Features = () => {
             <h4>Features</h4>
             <h1>What I Do</h1>
           </div>
-          <div className="content grid" data-aos="zoom-out-down">
+          <div className="content newFlex" data-aos="zoom-out-down">
             {data.map((val, index) => {
               return <Card key={index} title={val.title} image={val.image} desc={val.desc}/>;
             })}

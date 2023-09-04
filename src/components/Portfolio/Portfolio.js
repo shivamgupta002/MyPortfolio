@@ -12,7 +12,7 @@ const Portfolio = () => {
             <h4>My Portfolio and Keep Your Feedback</h4>
             <h1>Portfolio</h1>
           </div>
-          <div className="content grid" data-aos="zoom-out-down">
+          <div className="content newFlex" data-aos="zoom-out-down">
             {Portfolio_data.map((value, index) => {
               return (
                 <PortFolioCard
