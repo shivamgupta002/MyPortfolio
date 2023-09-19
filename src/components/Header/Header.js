@@ -38,11 +38,14 @@ const Header = () => {
                 <a href="#portfolio">portfolio</a>
               </li>
               <li>
-                <a href="#resume">resume</a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#clients">clients</a>
+                <a href="#resume">resume</a>
               </li>
+              {/* <li>
+                <a href="#clients">clients</a>
+              </li> */}
               <li>
                 <a href="#blog">blog</a>
               </li>
@@ -50,7 +53,7 @@ const Header = () => {
                 <a href="#contact">contact</a>
               </li>
               <li>
-                <button className="home-btn">BUY NOW</button>
+                <button className="home-btn">Hire me</button>
               </li>
             </ul>
 

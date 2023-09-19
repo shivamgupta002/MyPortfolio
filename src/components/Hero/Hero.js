@@ -35,10 +35,10 @@ const Hero = () => {
               />
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
-              distinctio sunt laborum praesentium repellendus, provident fugiat
-              dolores quia facere sit! sit amet, consectetur adipisicing elit.
-              Quis distinctio sunt laborum praesentium repellendus,{" "}
+              I'm a passionate software engineer who loves turning complex
+              problems into elegant solutions. With a strong coding background,
+              I enjoy crafting software that makes a real difference. Let's
+              build together!
             </p>
           </div>
           <div className="hero_contact">
