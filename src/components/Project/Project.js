@@ -6,7 +6,7 @@ import Card from './Project_Card';
 const Project = () => {
   return (
     <>
-      <div className="features top" id="features" >
+      <div className="features top" id="projects" >
         <div className="container">
           <div className="heading text-center" data-aos="zoom-in-down">
             <h4>What I Done</h4>
