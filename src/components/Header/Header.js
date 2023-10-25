@@ -38,6 +38,9 @@ const Header = () => {
                 <a href="#portfolio">portfolio</a>
               </li>
               <li>
+                <a href="#achievement">Achievement</a>
+              </li>
+              <li>
                 <a href="#projects">Projects</a>
               </li>
               <li>
