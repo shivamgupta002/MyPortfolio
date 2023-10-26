@@ -8,7 +8,12 @@ const Resume = () => {
     <>
       <section className="resume" id="resume">
         <div className="container top">
-          <div className="heading text-center">
+          <div
+            className="heading text-center"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+          >
             <h4>What I Done</h4>
             <h1>Resumes</h1>
           </div>

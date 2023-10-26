@@ -6,7 +6,7 @@ const contact = () => {
       <div className="top" id="contact">
         <h2>Feel free to contact Me Contact Me</h2>
         <div className="contact">
-          <div className="box">
+          <div className="social">
             <a href="/" className="icon">
               <i class="fa-solid fa-phone"></i>
               <p>+91 9929090937</p>
@@ -20,7 +20,7 @@ const contact = () => {
               <p>shivamgupta9876</p>
             </a>
           </div>
-          <div className="box">
+          <div className="social">
             <a href="/" className="icon">
               <i class="fa-solid fa-envelope"></i>
               <p>20shivamgupta02@gmail.com</p>
@@ -37,7 +37,7 @@ const contact = () => {
             </a>
           </div>
         </div>
-        <div className="end">@ All Rights Reversed BY Shivam Gupta</div>
+        <div className="endLine">@ All Rights Reversed BY Shivam Gupta</div>
       </div>
     </>
   );

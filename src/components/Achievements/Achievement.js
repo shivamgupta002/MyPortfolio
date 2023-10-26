@@ -8,14 +8,24 @@ const Achievement = () => {
     <>
       <section className="achievement" id="achievement">
         <div className="container top">
-          <div className="heading text-center">
+          <div
+            className="heading text-center"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+          >
             <h4>What I Earn</h4>
             <h1>Achievements</h1>
           </div>
         </div>
         <div className="container">
           <div className="content-section mtop d_flex">
-            <div className="left">
+            <div
+              className="left"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="heading">
                 <h4>2007-2010</h4>
                 <h1>Coding Achievement</h1>
@@ -36,7 +46,12 @@ const Achievement = () => {
                 })}
               </div>
             </div>
-            <div className="left">
+            <div
+              className="left"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="heading">
                 <h4>2007-2010</h4>
                 <h1>Web Achievements</h1>

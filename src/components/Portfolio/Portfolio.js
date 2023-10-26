@@ -8,11 +8,21 @@ const Portfolio = () => {
     <>
       <section className="portfolio top" id="portfolio">
         <div className="container">
-          <div className="heading text-center" data-aos="zoom-in-down">
+          <div
+            className="heading text-center"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+          >
             <h4>My Portfolio and Keep Your Feedback</h4>
             <h1>Portfolio</h1>
           </div>
-          <div className="content newFlex" data-aos="zoom-out-down">
+          <div
+            className="content newFlex"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+          >
             {Portfolio_data.map((value, index) => {
               return (
                 <PortFolioCard

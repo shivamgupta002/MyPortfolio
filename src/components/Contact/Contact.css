@@ -4,13 +4,15 @@
     background-color: #0c0c0c;
     border-radius: 10px;
 }
-#contact h2{
-    color: #1f889b;
+
+#contact h2 {
+    color: #1f9b7c;
     text-align: center;
     padding: 10px 0;
     text-transform: capitalize;
-    
+
 }
+
 .contact {
     height: 10rem;
     display: flex;
@@ -19,7 +21,7 @@
     width: 100%;
 }
 
-.box {
+.social {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,10 +33,13 @@
 .icon {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
 }
-
-.box i {
+a p{
+    color: #64919c;
+    font-size: 18px;
+}
+.social i {
     color: #fff;
     margin: 0px 10px;
     font-size: 1.5rem;
@@ -45,7 +50,6 @@
 }
 
 .icon:hover .fa-instagram {
-
     color: #405DE6;
 }
 
@@ -58,7 +62,7 @@
 
 }
 
-.end {
+.endLine {
     color: #fff;
     text-align: center;
     padding-bottom: 10px;
