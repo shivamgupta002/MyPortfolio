@@ -29,8 +29,14 @@
     width: 30%;
 }
 
-@media only screen and (max-width: 600px) {
-    .box {
+@media only screen and (max-width: 768px) {
+   .newFlex .box {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:550px) {
+  .newFlex .box {
         width: 98%;
     }
 }
