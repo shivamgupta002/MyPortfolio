@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .social {
@@ -69,4 +69,10 @@ a p{
     text-align: center;
     margin-top: 10px;
     padding-bottom: 10px;
+}
+/* ---------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .contact{
+        flex-wrap: wrap;
+    }
 }
