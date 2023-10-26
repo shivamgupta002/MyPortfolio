@@ -78,6 +78,9 @@
     background: #ff3a75;
   }
   @media (max-width: 768px) {
+    .left{
+      width: 95%;
+    }
     .resume .d_flex {
       flex-direction: column;
     }
