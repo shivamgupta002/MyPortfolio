@@ -14,11 +14,12 @@
 }
 
 .contact {
-    height: 10rem;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .social {
@@ -34,6 +35,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 10px 0;
 }
 a p{
     color: #64919c;
@@ -65,5 +67,6 @@ a p{
 .endLine {
     color: #fff;
     text-align: center;
+    margin-top: 10px;
     padding-bottom: 10px;
 }
