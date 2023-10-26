@@ -1,0 +1,88 @@
+.resume .heading h1 {
+    font-size: 44px;
+  }
+  .resume .content {
+    max-width: 85%;
+    margin: auto;
+  }
+  .resume .box {
+    padding: 40px;
+    width:auto;
+  }
+  .mtop{
+    margin: 10px;
+  }
+  .resume hr {
+    margin: 15px 0;
+    border: 1px solid #e3e9ed;
+    background-color: #e3e9ed;
+  }
+  .resume p {
+    font-size: 18px;
+    transition: 0.5s;
+  }
+  .resume .box {
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .resume .btn_shadow:hover {
+    transform: translate(0);
+  }
+  .resume .box:hover .btn_shadow {
+    background: #ff3a75;
+    box-shadow: none;
+    color: white;
+  }
+  .resume .box:hover p {
+    color: white;
+  }
+  .resume .content-section {
+    position: relative;
+  }
+  .resume .left {
+    position: relative;
+  }
+  .resume .left::after {
+    content: "";
+    position: absolute;
+    top: 16%;
+    left: 0;
+    height: 118vh;
+    width: 5px;
+    background: #d9dee2;
+    z-index: -2;
+  }
+  .resume .box::after {
+    content: "";
+    position: absolute;
+    top: 13%;
+    left: -8%;
+    height: 5px;
+    width: 50px;
+    background: #d9dee2;
+  }
+  .resume .box::before {
+    content: "";
+    position: absolute;
+    top: 11%;
+    left: -10%;
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    border: 5px solid #d9dee2;
+    border-radius: 50%;
+    z-index: 5;
+    transition: 0.5s;
+  }
+  .resume .box:hover.box:before {
+    background: #ff3a75;
+  }
+  @media (max-width: 768px) {
+    .resume .d_flex {
+      flex-direction: column;
+    }
+    .resume .left::after {
+      top: 14%;
+      height: 105vh;
+    }
+  }
