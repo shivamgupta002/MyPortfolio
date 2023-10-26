@@ -6,7 +6,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
 import Project from "./components/Project/Project";
 import Achievement from "./components/Achievements/Achievement";
-
+import Contact from "./components/Contact/Contact";
 const AllComponent = () => {
   return (
     <div>
@@ -17,6 +17,7 @@ const AllComponent = () => {
       <Portfolio/>
       <Project/>
       <Resume/>
+      <Contact/>
     </div>
   );
 };

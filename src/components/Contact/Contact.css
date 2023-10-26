@@ -1,0 +1,65 @@
+#contact {
+    min-height: 30vh;
+    min-width: 100%;
+    background-color: #0c0c0c;
+    border-radius: 10px;
+}
+#contact h2{
+    color: #1f889b;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: capitalize;
+    
+}
+.contact {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.box i {
+    color: #fff;
+    margin: 0px 10px;
+    font-size: 1.5rem;
+}
+
+.icon:hover .fa-phone {
+    color: #4a1f9b;
+}
+
+.icon:hover .fa-instagram {
+
+    color: #405DE6;
+}
+
+.icon:hover .fa-envelope {
+    color: #228668;
+}
+
+.icon:hover .fa-github {
+    color: #8db327;
+
+}
+
+.end {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
