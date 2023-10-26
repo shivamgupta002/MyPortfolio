@@ -68,6 +68,16 @@ const Hero = () => {
                 </button>
                 <button>
                   <a
+                    href="https://www.hackerrank.com/profile/20shivamgupta02"
+                    target="_blank"
+                    className="btn_shadow"
+                    rel="noReferrer"
+                  >
+                    <i class="fa-brands fa-hackerrank"></i>
+                  </a>
+                </button>
+                {/* <button>
+                  <a
                     href="https://www.instagram.com/shivamgupta9876/"
                     target="_blank"
                     className="btn_shadow"
@@ -75,7 +85,7 @@ const Hero = () => {
                   >
                     <i class="fa-brands fa-instagram"></i>
                   </a>
-                </button>
+                </button> */}
               </div>
             </div>
             {/* language */}
