@@ -11,8 +11,7 @@ const Achievement = () => {
           <div
             className="heading text-center"
             data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
           >
             <h4>What I Earn</h4>
             <h1>Achievements</h1>
@@ -23,8 +22,7 @@ const Achievement = () => {
             <div
               className="left"
               data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine"
+              data-aos-duration="1500"
             >
               <div className="heading">
                 <h4>2007-2010</h4>
@@ -49,8 +47,7 @@ const Achievement = () => {
             <div
               className="left"
               data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine"
+              data-aos-duration="1500"
             >
               <div className="heading">
                 <h4>2007-2010</h4>

@@ -11,8 +11,7 @@ const Features = () => {
           <div
             className="heading text-center"
             data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
           >
             <h4>Features</h4>
             <h1>What I Do</h1>
@@ -20,8 +19,7 @@ const Features = () => {
           <div
             className="content newFlex"
             data-aos="fade-left"
-            data-aos-offset="250"
-            data-aos-easing="ease-in-sine"
+            data-aos-duration="1500"
           >
             {data.map((val, index) => {
               return (

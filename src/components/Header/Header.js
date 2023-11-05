@@ -14,9 +14,7 @@ const Header = () => {
       <header
         className="header"
         data-aos="fade-right"
-        data-aos-anchor="#example-anchor"
-        data-aos-offset="500"
-        data-aos-duration="500"
+        data-aos-duration="1000"
       >
         <div className="container d_flex">
           <div className="logo">

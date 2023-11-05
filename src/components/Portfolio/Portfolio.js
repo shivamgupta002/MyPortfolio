@@ -11,8 +11,7 @@ const Portfolio = () => {
           <div
             className="heading text-center"
             data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
           >
             <h4>My Portfolio and Keep Your Feedback</h4>
             <h1>Portfolio</h1>
@@ -20,8 +19,7 @@ const Portfolio = () => {
           <div
             className="content newFlex"
             data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-sine"
+            data-aos-duration="1500"
           >
             {Portfolio_data.map((value, index) => {
               return (
