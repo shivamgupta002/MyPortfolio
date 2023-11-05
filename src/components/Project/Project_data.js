@@ -13,18 +13,24 @@ const data = [
   },
   {
     id:3,
+    link: "https://github.com/shivamgupta002/E-commerce",
+    title: "E-commerce",
+    desc: "This is fully Professional E-commerce Website. In this website you can order your product, admin will be able to add,modify and delete product, payment system also included.",
+  },
+  {
+    id:4,
     link: "https://github.com/shivamgupta002/Employee_Crud",
     title: "Employee Details (CRM)",
     desc: "In this application you can add your details and it store in database by which you an get your data anytime and modify as well as",
   },
   {
-    id:4,
+    id:5,
     link: "https://github.com/shivamgupta002/Book-Store",
     title: "Book-Store",
     desc: "This application is like a digital Book store management system where you add your books , update price img,and many more",
   },
   {
-    id:5,
+    id:6,
     link: "https://github.com/shivamgupta002/DSA",
     title: "DSA Problem solved",
     desc: "In this I solved many problem of DSA of different competitive Platform and sort in a different folder you can check it out ",
