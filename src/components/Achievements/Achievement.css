@@ -1,47 +1,59 @@
 .achievement .heading h1 {
   font-size: 44px;
 }
+
 .achievement .content {
   max-width: 85%;
   margin: auto;
 }
+
 .achievement .box {
   padding: 40px;
-  width:auto;
+  width: auto;
 }
-.mtop{
+
+.mtop {
   margin: 10px;
 }
+
 .achievement hr {
   margin: 15px 0;
   border: 1px solid #e3e9ed;
   background-color: #e3e9ed;
 }
+
 .achievement p {
   font-size: 18px;
   transition: 0.5s;
 }
+
 .achievement .box {
   margin-bottom: 40px;
   position: relative;
 }
+
 .achievement .btn_shadow:hover {
   transform: translate(0);
 }
+
 .achievement .box:hover .btn_shadow {
   background: #ff3a75;
   box-shadow: none;
   color: white;
 }
+
 .achievement .box:hover p {
   color: white;
 }
+
 .achievement .content-section {
   position: relative;
 }
+
 .achievement .left {
   position: relative;
 }
+
 .achievement .left::after {
   content: "";
   position: absolute;
@@ -52,6 +64,7 @@
   background: #d9dee2;
   z-index: -2;
 }
+
 .achievement .box::after {
   content: "";
   position: absolute;
@@ -61,6 +74,7 @@
   width: 50px;
   background: #d9dee2;
 }
+
 .achievement .box::before {
   content: "";
   position: absolute;
@@ -74,45 +88,63 @@
   z-index: 5;
   transition: 0.5s;
 }
+
 .achievement .box:hover.box:before {
   background: #ff3a75;
 }
+
 @media (max-width: 1050px) {
-  .left{
+  .left {
     width: 45%;
   }
+
   .achievement .left::after {
     top: 20%;
     height: 80vh;
   }
 }
+
 @media (max-width: 768px) {
-  .left{
+  .left {
     width: 95%;
   }
+
   .achievement .d_flex {
     flex-direction: column;
   }
+
   .achievement .left::after {
     top: 17%;
-    height: 79vh;
+    height: 41vh;
+  }
+
+  .achievement .box::before {
+    left: -10%;
   }
 }
+
 @media (max-width: 540px) {
   .achievement .left::after {
     top: 22%;
-    height: 85vh;
+    height: 39vh;
   }
+
+  .achievement .box::before {
+    left: -6%;
+  }
+
   .achievement .content {
     max-width: 92%;
     margin: auto;
   }
 }
+
 @media (max-width: 340px) {
   .achievement .left::after {
     top: 18%;
     height: 92vh;
   }
+
   .achievement .content {
     max-width: 100%;
     margin: auto;
