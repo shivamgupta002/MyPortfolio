@@ -39,13 +39,13 @@ const AchivementData = [
       id: 7,
       category: "web",
       year: "2023",
-      title: "Earned Linkedin Badge of HTML,CSS,Frontend",
+      title: "Earned Linkedin Badge of HTML,CSS,JavaScript,Frontend",
     },
     {
       id: 8,
       category: "web",
       year: "2023",
-      title: "Earned Linkedin Badge of JavaScript, NodeJS",
+      title: "Earned Linkedin Badge of ReactJS, NodeJS",
     },
   ]
   
