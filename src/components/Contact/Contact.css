@@ -35,8 +35,13 @@
 }
 
 a p {
-    color: #64919c;
+    color: #ffff;
     font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+a p:hover{
+    color: #a2f7fa;
 }
 
 .social i {
