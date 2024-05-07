@@ -35,9 +35,9 @@ const Header = () => {
               <li>
                 <a href="#achievement">Achievement</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#portfolio">portfolio</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#projects">Projects</a>
               </li>
