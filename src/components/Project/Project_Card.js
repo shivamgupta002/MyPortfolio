@@ -6,7 +6,7 @@ const Project_Card = (props) => {
       <a href={props.link} target="_blank" rel="noreferrer" className="box btn_shadow">
           <h2>{props.title}</h2>
           <p className="features_card_p">{props.desc}</p>
-          <a href={props.link}>
+          <a href={props.link} className="box_card_arrow" >
             <i className="fas fa-arrow-right"></i>
           </a>
       </a>

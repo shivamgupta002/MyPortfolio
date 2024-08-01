@@ -1,5 +1,17 @@
 const data = [
   {
+    id: 99,
+    link: "https://github.com/shivamgupta002/Restaurant-Website",
+    title: "Restaurant-Website",
+    desc: "In this application SignUp and login for restaurant ,restaurant search,food items list and restaurant list for users, add to cart ,user login and SignUp ,order food ,delivery partner assigned to deliver food ,order list for customer,auto detect location ,and many more",
+  },
+  {
+    id: 100,
+    link: "https://schoolwebsite002.netlify.app/",
+    title: "School Website",
+    desc: "I developed a responsive website for Springdale Public School using React.js. It includes sections like Home, About Us, and Academics, with Tailwind CSS styling, Context API state management, and Google Maps integration, showcasing my frontend development skills.",
+  },
+  {
     id: 101,
     link: "https://github.com/shivamgupta002/Flipkart",
     title: "E-Commerce",

@@ -7,6 +7,11 @@
     line-height: 25px;
     color: black;
 }
+.box_card_arrow{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
 
 .fa-arrow-right {
     display: block;
@@ -28,6 +33,7 @@
 
 .box {
     width: 30%;
+    position: relative;
 }
 
 @media only screen and (max-width: 600px) {

@@ -111,7 +111,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero_img">
-          <img src={MyImage} alt="" />
+          <img src={MyImage} alt="" loading="lazy"/>
         </div>
       </div>
     </>
