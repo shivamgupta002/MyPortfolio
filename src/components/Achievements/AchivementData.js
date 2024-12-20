@@ -2,14 +2,14 @@ const AchivementData = [
     {
       id: 1,
       category: "coding",
-      year: "August 2023",
-      title: "4-star at HackerRank on C++",
+      year: "",
+      title: "4-star at HackerRank on C++,10 days of code",
     },
     {
       id: 2,
       category: "coding",
-      year: "October 2023",
-      title: "4-star at HackerRank on 10 days of code",
+      year: "",
+      title: "4-star at HackerRank on SQL and Python",
     },
     {
       id: 3,
@@ -27,13 +27,13 @@ const AchivementData = [
       id: 5,
       category: "web",
       year: "10-2023",
-      title: "Passed ReactJS Test on HackerRank",
+      title: "Passed ReactJS ,CSS Test on HackerRank",
     },
     {
       id: 6,
       category: "web",
-      year: "01-2023 ",
-      title: "Passed CSS Test on HackerRank",
+      year: "11-2024 ",
+      title: "Passed SQL Test on HackerRank",
     },
     {
       id: 7,
