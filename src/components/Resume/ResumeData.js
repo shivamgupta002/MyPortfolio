@@ -23,19 +23,19 @@ const ResumeData = [
   {
     id: 4,
     category: "experience",
+    year: "April 2024 - November 2024",
+    title: "Associate Software Intern",
+    desc: "Associate Software Intern on Future Solvers Pvt. Ltd.,Remote ",
+  },
+  {
+    id: 4,
+    category: "experience",
     year: "May 2023 - August 2023",
     title: "Associate Software Intern",
-    desc: "I have Completed my 3 month training as a Associate Software Intern on Shipway Technology Pvt. Ltd. ",
+    desc: "Associate Software Intern on Shipway Technology Pvt. Ltd., Gurugram ",
   },
   {
     id: 5,
-    category: "experience",
-    year: "May-June",
-    title: "Web Developer And Designing",
-    desc: "I have Completed my 1 month training as a Web Developer And designer Intern on Oasis infobye.",
-  },
-  {
-    id: 6,
     category: "experience",
     year: "December 2022 -February 2023 ",
     title: "Graphic Designer",
